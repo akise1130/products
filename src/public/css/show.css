@@ -1,0 +1,97 @@
+.product-detail-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.back-link {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.product-detail-wrapper {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.product-image-section {
+    flex:1;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.file-input {
+    margin-top: 10px;
+    display: block;
+}
+
+.product-info-section {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input[type="text"],textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.season-options {
+    display: flex;
+    gap: 15px;
+}
+
+.product-description-section {
+    margin-bottom: 20px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+btn-edit {
+    background-color: #facc15;
+    color: #000;
+}
+
+.btn-back {
+    background-color: #e5e7eb;
+    color: #000;
+}
+
+.btn-delete {
+    background: none;
+    color: red;
+    font-size: 20px;
+    vertical-align: middle;
+}
